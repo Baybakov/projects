@@ -3,21 +3,21 @@ package task1;
 class Arithmetic {
 
 	public static void main(String[] args) {
-		System.out.println("Тип byte принимает значения от " +
-				Byte.MIN_VALUE + " до " + Byte.MAX_VALUE);
-		System.out.println("Тип short принимает значения от " +
-				Short.MIN_VALUE + " до " + Short.MAX_VALUE);
-		System.out.println("Тип int принимает значения от " +
-				Integer.MIN_VALUE + " до " + Integer.MAX_VALUE);
-		System.out.println("Тип long принимает значения от " +
-				Long.MIN_VALUE + " до " + Long.MAX_VALUE);
-		System.out.println("Тип char принимает значения от " +
-				(int)Character.MIN_VALUE + " до " + (int)Character.MAX_VALUE);
-		System.out.println("Тип float принимает значения от " +
-				Float.MIN_VALUE + " до " + Float.MAX_VALUE);
-		System.out.println("Тип double принимает значения от " +
-				Double.MIN_VALUE + " до " + Double.MAX_VALUE);
-		System.out.println("Тип boolean принимает значения true или false");
+		System.out.println("РўРёРї byte РїСЂРёРЅРёРјР°РµС‚ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ " +
+				Byte.MIN_VALUE + " РґРѕ " + Byte.MAX_VALUE);
+		System.out.println("РўРёРї short РїСЂРёРЅРёРјР°РµС‚ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ " +
+				Short.MIN_VALUE + " РґРѕ " + Short.MAX_VALUE);
+		System.out.println("РўРёРї int РїСЂРёРЅРёРјР°РµС‚ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ " +
+				Integer.MIN_VALUE + " РґРѕ " + Integer.MAX_VALUE);
+		System.out.println("РўРёРї long РїСЂРёРЅРёРјР°РµС‚ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ " +
+				Long.MIN_VALUE + " РґРѕ " + Long.MAX_VALUE);
+		System.out.println("РўРёРї char РїСЂРёРЅРёРјР°РµС‚ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ " +
+				(int)Character.MIN_VALUE + " РґРѕ " + (int)Character.MAX_VALUE);
+		System.out.println("РўРёРї float РїСЂРёРЅРёРјР°РµС‚ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ " +
+				Float.MIN_VALUE + " РґРѕ " + Float.MAX_VALUE);
+		System.out.println("РўРёРї double РїСЂРёРЅРёРјР°РµС‚ Р·РЅР°С‡РµРЅРёСЏ РѕС‚ " +
+				Double.MIN_VALUE + " РґРѕ " + Double.MAX_VALUE);
+		System.out.println("РўРёРї boolean РїСЂРёРЅРёРјР°РµС‚ Р·РЅР°С‡РµРЅРёСЏ true РёР»Рё false");
 		
 		int a = 10, b = 5;
 		int ab = a + b;
