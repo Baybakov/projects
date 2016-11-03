@@ -37,16 +37,16 @@ public class Main {
 	 */
 	public int getSumAllEvenPositive(int step, int addWithoutConditions) {
 		int sum = 0;
-        if(addWithoutConditions > begin && addWithoutConditions <= end){
-            sum += addWithoutConditions;
-            System.out.println(addWithoutConditions);
-        }
+		if(addWithoutConditions > begin && addWithoutConditions <= end){
+		    sum += addWithoutConditions;
+		    System.out.println(addWithoutConditions);
+		}
 		for(int i = begin + step; i <= end; i += step){
-            if(i % 2 == 0 && i > 0 && i != addWithoutConditions){
-                sum += i;
-                System.out.println(i);
-            }
-        }
+		    if(i % 2 == 0 && i > 0 && i != addWithoutConditions){
+			sum += i;
+			System.out.println(i);
+		    }
+		}
 		return sum;
 	}
 
@@ -59,15 +59,16 @@ public class Main {
 		Main main = new Main(-100,1000);
 		
 		//вызовем релизованный метод 
-	    int sum = main.getSumAllEvenPositive(2,-6);
-	    //выводим результат на экран
-	    System.out.println("Cумма: " + sum);
-	    //проверка
+	    	int sum = main.getSumAllEvenPositive(2,-6);
+		//выводим результат на экран
+		System.out.println("Cумма: " + sum);
+		//проверка
 		if (sum == 250494){
-	    	System.out.println("Ok:)");
-	    } else {
-	    	System.out.println("Error:(");
-	    }
+			System.out.println("Ok:)");
+		}
+		else {
+			System.out.println("Error:(");
+		}
 	}
 
 }
